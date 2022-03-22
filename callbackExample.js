@@ -6,13 +6,12 @@ const climatic = ( lat , long , callback) => {
         if(error){
             callback('No internet', undefined)
         }
-        else if(response.status==="OK"){
+        else if(response.body === 0){                //if there's no json data return, treat input dataas incorrect values
             callback('location not found', undefined )
         }
         else{
             callback(undefined ,'humidity is '+response.body.current.humidity)
-           // const climaticData = JSON.parse(response.data)
-           // callback( undefined, 'cloud data is '+JSON.stringify(response.data))
+
         }
     })
 }
