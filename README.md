@@ -3,8 +3,11 @@
 concepts:
 
 -errror handling
+
 -callback(no return vals)
+
 -making https req + customizing it
+
 -weather app
 
 
