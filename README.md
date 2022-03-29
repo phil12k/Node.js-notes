@@ -4,7 +4,7 @@ concepts:
 
 -errror handling
 -callback(no return vals)
--making https req and customize it
+-making https req + customizing it
 -weather app
 
 
