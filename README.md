@@ -12,6 +12,8 @@ concepts:
 
 -BodyParser : Used as a middleware to get input response-body. It parses the rep.body to read its key-value pairs.  
 
+-PromiseChaining: with .then().catch() to call multiple methods without nesting and creating complex code
+
 
 
 Plans:
